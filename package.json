@@ -1,0 +1,19 @@
+{
+  "name": "proppath",
+  "version": "1.0.0",
+  "description": "Resolve dot notation path into a sub object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbuteau/proppath.git"
+  },
+  "author": "Christopher W Buteau <cbuteau@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbuteau/proppath/issues"
+  },
+  "homepage": "https://github.com/cbuteau/proppath#readme"
+}
