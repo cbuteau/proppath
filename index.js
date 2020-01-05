@@ -10,8 +10,14 @@ function proppath(rootObject, proppath) {
   return result;
 }
 
+function invoke(rootObject, proppath, arguments) {
+  var func = proppath(rootObject, proppath);
+  func.apply(arguments);
+}
+
 var exposed = {
-  proppath: proppath
+  proppath: proppath,
+  invoke: invoke
 };
 
 if (typeof define === 'function' && define.amd) {
